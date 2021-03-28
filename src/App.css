@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 20rem) {
+  .generalText {
+    font-size: 100%;
+  }
+}
+  
+@media (min-width: 30em) {
+  .generalText {
+    font-size: 150%;
+  }
+}
+
+.summary {
+  padding: 30px;
+  width: 75%;
+}

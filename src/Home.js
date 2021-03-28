@@ -1,6 +1,6 @@
 import './App.css';
-import React, { Component } from 'react';
-import { Image, Badge, Accordion, Card, Tabs, Tab } from 'react-bootstrap';
+import React, { Component} from 'react';
+import { Image, Accordion, Card, Tabs, Tab } from 'react-bootstrap';
 
 export default class Home extends Component {
     render(){
@@ -12,15 +12,24 @@ export default class Home extends Component {
                     <h4>Read February 13th - March 21st</h4>           
                 </div>
 
-                <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-                    <Tab eventKey="home" default title="Summary">
-                        <p> The Fountainhead is a constant struggle between creators and the second-handers.</p>
-                        <p> A struggle between the urge to control other's emotions and Roark's facinating ability to live his life through his own means.</p>
-                        <p>
+                <Tabs defaultActiveKey="summary" id="uncontrolled-tab-example">
+                    <Tab eventKey="summary" default title="Summary">
 
-                        </p>
+                        <div className ="generalText summary">
+                            <p> The Fountainhead is a constant struggle between creators and the second-handers.
+                                A struggle between the urge to control other's emotions and Roark's facinating 
+                                ability to live his life through his own means.
+                                <br></br>
+                                After getting expelled from school, Howard, decides to go off and be an architect in New York, despite
+                                having no credentials. After countless months
+                                with little work, Howard evenutally gains traction as people like him around the country
+                                begin to see his work, without any marketing. 
+                                <br></br>The topics of his story surround materialism
+                                and are very relevent in today's life. Definitely a book worth reading.
+                            </p>
+                        </div>
                     </Tab>
-                    <Tab eventKey="profile" title="Notable Characters">
+                    <Tab eventKey="characters" title="Notable Characters">
                         <Accordion defaultActiveKey="0">
                             <Card>
                                 <Accordion.Toggle as={Card.Header} eventKey="0">
@@ -64,12 +73,14 @@ export default class Home extends Component {
                             </Card>
                         </Accordion>
                     </Tab>
-                    <Tab eventKey="contact" title="Question's left Unanswered">
-                        <ul>
-                            <li>What in the hell was Roark thinking when he raped Dominque?!</li>
-                            <li>Why on Earth did Dominique have to be present at the explosion?!</li>
-                            <li>Wonder if Peter will ever get his comeback story...</li>
-                        </ul>
+                    <Tab eventKey="questions" title="Question's left Unanswered">
+                        <div className ="generalText">
+                            <ul>
+                                <li>What in the hell was Roark thinking when he raped Dominque?!</li>
+                                <li>Why on Earth did Dominique have to be present at the explosion?!</li>
+                                <li>Wonder if Peter will ever get his comeback story...</li>
+                            </ul>
+                        </div>
                     </Tab>
                 </Tabs>
 
