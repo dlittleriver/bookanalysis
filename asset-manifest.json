@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bookanalysis/static/css/main.3c13d77b.chunk.css",
+    "main.css": "/bookanalysis/static/css/main.e2337a74.chunk.css",
     "main.js": "/bookanalysis/static/js/main.ec78f2c9.chunk.js",
     "main.js.map": "/bookanalysis/static/js/main.ec78f2c9.chunk.js.map",
     "runtime-main.js": "/bookanalysis/static/js/runtime-main.044866ee.js",
@@ -12,14 +12,14 @@
     "static/js/3.43b16b8e.chunk.js.map": "/bookanalysis/static/js/3.43b16b8e.chunk.js.map",
     "index.html": "/bookanalysis/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/bookanalysis/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.3c13d77b.chunk.css.map": "/bookanalysis/static/css/main.3c13d77b.chunk.css.map",
+    "static/css/main.e2337a74.chunk.css.map": "/bookanalysis/static/css/main.e2337a74.chunk.css.map",
     "static/js/2.7c34758f.chunk.js.LICENSE.txt": "/bookanalysis/static/js/2.7c34758f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.044866ee.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.7c34758f.chunk.js",
-    "static/css/main.3c13d77b.chunk.css",
+    "static/css/main.e2337a74.chunk.css",
     "static/js/main.ec78f2c9.chunk.js"
   ]
 }
